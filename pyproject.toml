@@ -11,6 +11,11 @@ dependencies = [
 ]
 dynamic = ["version"]
 
+[project.urls]
+Repository = "https://github.com/celsiusnarhwal/starlette-rootpath-middleware"
+Issues = "https://github.com/celsiusnarhwal/starlette-rootpath-middleware/isssues"
+Changelog = "https://github.com/celsiusnarhwal/starlette-rootpath-middleware/blob/main/CHANGELOG.md"
+
 [tool.hatch.version]
 source = "vcs"
 
