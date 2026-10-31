@@ -1,0 +1,22 @@
+[project]
+name = "starlette-rootpath-middleware"
+description = "Starlette middleware for setting the root path"
+readme = "README.md"
+authors = [
+    { name = "celsius narhwal", email = "hello@celsiusnarhwal.dev" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "starlette>=0.33.0"
+]
+dynamic = ["version"]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"

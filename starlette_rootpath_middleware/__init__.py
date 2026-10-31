@@ -1,0 +1,1 @@
+from starlette_rootpath_middleware.middleware import RootPathMiddleware
