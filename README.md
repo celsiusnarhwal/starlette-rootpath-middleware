@@ -1,4 +1,4 @@
-# `starlette-rootpath-middleware`
+# starlette-rootpath-middleware
 
 FastAPI 0.146.0 deprecated `FastAPI()`'s `root_path` parameter in favor of a `--root-path` command-line flag to
 `fastapi run`. If you specifically need to set the root path at runtime, you can use this middleware.
